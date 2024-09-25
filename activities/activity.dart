@@ -86,5 +86,5 @@ void findCheapest(List <double> pr) {
     }
   }
   // After the loop ends, cheapest will hold the cheapest price in the list
-  print("Cheapest Basket: ${cheapest.toStringAsFixed(2)}");
+  print("Cheapest Basket: $cheapest);
 }
