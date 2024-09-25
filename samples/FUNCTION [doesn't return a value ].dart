@@ -1,3 +1,12 @@
+/* 
+
+Create an application named TestMethods whose main() method holds two
+integer variables. Assign values to the variables. In turn, pass each value to
+methods named displayIt(), displayItTimesTwo(), anddisplayItPlusOneHundred(). 
+Create each method to perform the task its name implies.
+
+*/
+
 void main() {
   // Declare two integer variables and assign values to them.
   int num1 = 10;
