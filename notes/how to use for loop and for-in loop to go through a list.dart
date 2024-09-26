@@ -5,7 +5,7 @@
 // Both are useful, but they work in different ways.
 
 // 1. for loop:
-// A for loop allows you to control how the loop runs by setting a starting point, an end point, and how the loop moves through the list.
+// for loop allows you to control how the loop runs by setting a starting point, an end point, and how the loop moves through the list.
 
 // Example:
 
