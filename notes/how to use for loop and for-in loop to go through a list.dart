@@ -27,9 +27,10 @@ void main() {
 // numbers[i]: Gets each number using its position (or index) in the list.
 
 // 2. for-in loop:
-//The for-in loop is simpler. It goes through each item in the list one by one, without needing to keep track of the index.
+// The for-in loop is simpler. It goes through each item in the list one by one, without needing to keep track of the index.
 
 // Example:
+  
   // Using a for-in loop
   stdout.writeln("\n\nUsing a for-in loop:");
   for (int number in numbers) {
@@ -41,10 +42,10 @@ void main() {
 // You don't need to worry about index positions or manually increasing any counters.
 
 // When to use:
-// Regular for loop: Use this if you need more control. For example, if you want to start from the middle of the list or skip items.
+// for loop: Use this if you need more control. For example, if you want to start from the middle of the list or skip items.
 
 // Example:
-  stdout.writeln("\n\nUsing for loop to skip items.");
+  stdout.writeln("\n\nUsing for loop to skip items:");
   for (int i = 0; i < numbers.length; i += 2) { // Skips every other item
     stdout.write("${numbers[i]} ");
   }
